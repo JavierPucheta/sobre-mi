@@ -1,0 +1,46 @@
+﻿/* Se setea la letra, el color del fondo, tamaño, posición y alineación del texto de la página*/
+body {
+    font-family: Arial, fantasy;
+    background-color: lightcyan;
+    width: 90%;
+    height: 90vh;
+    position: relative;
+    text-align: left;
+}
+/* Se setea el color del fondo, tamaño, posición del bloque y alineación del texto de la cabezera*/
+header {
+    background-color: lightblue;
+    width: 90%;
+    margin: auto;
+    position: relative;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-right: 10px;
+    text-align: center;
+}
+/* Se setea el color del fondo, tamaño y posición del bloque del bloque que contiene los datos*/
+main {
+    background-color: lightblue;
+    width: 90%;
+    margin: auto;
+    position: relative;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+/* Se setea tamaño y alineación de la imágen*/
+#foto-img > figure > img {
+    width: 10%;
+    border-radius: 50px;
+    align-content: center;
+}
+/* Se setea el color del fondo, tamaño y posición del bloque de la navegación*/
+nav {
+    background-color: lightblue;
+    width: 90%;
+    margin: auto;
+    position: relative;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
